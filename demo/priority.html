@@ -5,15 +5,76 @@
   <meta charset="UTF-8">
   <title>Priority Consultation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #07111f, #102a43);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 24px 70px rgba(0,0,0,0.4);
+    }
+    h1 { margin: 0 0 10px; font-size: 28px; }
+    p { color: #cbd5e1; line-height: 1.5; }
+    input {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.08);
+      color: white;
+      font-size: 16px;
+      outline: none;
+    }
+    button {
+      width: 100%;
+      padding: 16px;
+      border: none;
+      border-radius: 14px;
+      background: #38bdf8;
+      color: #031827;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .note {
+      margin-top: 14px;
+      font-size: 12px;
+      color: #94a3b8;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Priority Consultation (£30)</h1>
-  <p>Fast-track your consultation with a specialist.</p>
+  <div class="card">
+    <h1>Priority Consultation — £30</h1>
+    <p>Fast-track your consultation request and receive priority scheduling from the clinic team.</p>
 
-  <button onclick="alert('Payment simulation → success')">
-    Pay £30
-  </button>
+    <input type="text" placeholder="Full name" required>
+    <input type="tel" placeholder="Phone number" required>
+    <input type="email" placeholder="Email address" required>
+
+    <button onclick="alert('Payment simulation → success')">Pay £30</button>
+
+    <div class="note">
+      Secure payment. No account required. Clinic receives your request instantly.
+    </div>
+  </div>
 
 </body>
 </html>
