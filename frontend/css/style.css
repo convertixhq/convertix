@@ -1,4 +1,62 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.cta-btn {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #6366f1;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* BENEFITS */
+.benefits {
+  display: flex;
+  gap: 20px;
   padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+/* FINAL CTA */
+.final-cta {
+  text-align: center;
+  padding: 80px 20px;
 }
