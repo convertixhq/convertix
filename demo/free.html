@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Consultation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: #fff;
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      background: #0f1d33;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 28px;
+      padding: 26px;
+      box-shadow: 0 24px 70px rgba(0,0,0,0.35);
+    }
+
+    .back {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin-bottom: 22px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: #cbd5e1;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 15px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 14px;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #94a3b8;
+    }
+
+    button {
+      width: 100%;
+      border: none;
+      border-radius: 14px;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #38bdf8;
+      color: #031827;
+      margin-top: 6px;
+    }
+
+    .trust {
+      margin-top: 16px;
+      font-size: 12px;
+      text-align: center;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="page">
+    <section class="card">
+      <a class="back" href="clinic.html">← Back</a>
+
+      <h1>Request your free consultation</h1>
+
+      <p>
+        Enter your details and the clinic team will contact you within 24 hours.
+      </p>
+
+      <form onsubmit="event.preventDefault(); window.location.href='confirmation.html';">
+        <label>Full name</label>
+        <input type="text" placeholder="Your name" required>
+
+        <label>Phone number</label>
+        <input type="tel" placeholder="+44..." required>
+
+        <label>Email</label>
+        <input type="email" placeholder="you@email.com" required>
+
+        <button type="submit">Request consultation</button>
+      </form>
+
+      <div class="trust">
+        No account required · Your details go directly to the clinic
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
