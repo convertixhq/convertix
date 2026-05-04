@@ -173,7 +173,21 @@
 <script>
   document.querySelectorAll("button").forEach(button => {
     button.addEventListener("click", () => {
-      alert("Next step: booking form");
+
+      const text = button.innerText.toLowerCase();
+
+      if (text.includes("free")) {
+        alert("Free consultation selected → next: form + phone capture");
+      }
+
+      else if (text.includes("priority")) {
+        alert("Priority consultation → next: payment (£30)");
+      }
+
+      else if (text.includes("book")) {
+        alert("Clinic visit → next: deposit (£50)");
+      }
+
     });
   });
 </script>
