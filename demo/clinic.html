@@ -173,6 +173,7 @@
 <script>
   document.querySelectorAll("button").forEach(button => {
     button.addEventListener("click", () => {
+
       const text = button.innerText.toLowerCase();
 
       if (text.includes("free")) {
@@ -180,12 +181,13 @@
       }
 
       else if (text.includes("priority")) {
-        alert("Priority consultation → payment page coming next");
+        window.location.href = "priority.html";
       }
 
       else if (text.includes("book")) {
-        alert("Clinic visit → deposit page coming next");
+        window.location.href = "booking.html";
       }
+
     });
   });
 </script>
