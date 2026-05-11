@@ -1,62 +1,135 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
-/* NAV */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+body{
+background:
+radial-gradient(circle at top,#0b1b4d,#050816 60%);
+color:white;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
 }
 
-.logo {
-  font-weight: bold;
+.container{
+max-width:1100px;
+width:100%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
 }
 
-.cta-btn {
-  color: white;
-  text-decoration: none;
+.left h1{
+font-size:64px;
+line-height:1;
+margin-bottom:24px;
+font-weight:900;
 }
 
-/* HERO */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
+.left p{
+font-size:20px;
+line-height:1.6;
+color:#c7d2fe;
+margin-bottom:30px;
+max-width:540px;
 }
 
-.hero h1 {
-  font-size: 40px;
+.badges{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+margin-bottom:40px;
 }
 
-.primary-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background: #6366f1;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
+.badge{
+background:rgba(255,255,255,0.08);
+padding:12px 18px;
+border-radius:999px;
+font-size:14px;
+color:#dbeafe;
 }
 
-/* BENEFITS */
-.benefits {
-  display: flex;
-  gap: 20px;
-  padding: 40px;
+.buttons{
+display:flex;
+gap:16px;
+flex-wrap:wrap;
 }
 
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1;
+.btn{
+padding:16px 26px;
+border-radius:16px;
+font-size:16px;
+font-weight:bold;
+text-decoration:none;
+transition:0.2s;
 }
 
-/* FINAL CTA */
-.final-cta {
-  text-align: center;
-  padding: 80px 20px;
+.primary{
+background:#22d3ee;
+color:#04111f;
+}
+
+.primary:hover{
+transform:translateY(-2px);
+}
+
+.secondary{
+border:1px solid rgba(255,255,255,0.15);
+color:white;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:28px;
+padding:34px;
+backdrop-filter:blur(12px);
+}
+
+.card h2{
+font-size:30px;
+margin-bottom:20px;
+}
+
+.feature{
+margin-bottom:20px;
+}
+
+.feature h3{
+font-size:18px;
+margin-bottom:6px;
+}
+
+.feature p{
+color:#cbd5e1;
+line-height:1.5;
+}
+
+.logo{
+font-size:24px;
+font-weight:900;
+margin-bottom:30px;
+letter-spacing:1px;
+}
+
+.logo span{
+color:#22d3ee;
+}
+
+@media(max-width:900px){
+
+.container{
+grid-template-columns:1fr;
+}
+
+.left h1{
+font-size:48px;
+}
+
 }
