@@ -1,27 +1,69 @@
-document.querySelectorAll("button").forEach(button => {
+function validateEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+}
 
-button.addEventListener("click", () => {
+function validatePhone(phone) {
+    return phone.replace(/\D/g, "").length >= 8;
+}
 
-const text = button.innerText.toLowerCase();
+function handleForm(buttonId, successPage) {
 
-if(text.includes("free")){
+    const button = document.getElementById(buttonId);
 
-window.location.href = "demo/success-free.html";
+    if (!button) return;
+
+    button.addEventListener("click", () => {
+
+        const form = button.closest(".card, .success-card, section");
+
+        const inputs = form.querySelectorAll("input");
+
+        let valid = true;
+
+        inputs.forEach(input => {
+
+            if (input.value.trim() === "") {
+                input.style.border = "1px solid red";
+                valid = false;
+            } else {
+                input.style.border = "1px solid rgba(255,255,255,0.15)";
+            }
+
+            if (input.type === "email") {
+                if (!validateEmail(input.value)) {
+                    input.style.border = "1px solid red";
+                    valid = false;
+                }
+            }
+
+            if (input.type === "tel") {
+                if (!validatePhone(input.value)) {
+                    input.style.border = "1px solid red";
+                    valid = false;
+                }
+            }
+
+        });
+
+        if (!valid) {
+            alert("Please complete all fields correctly.");
+            return;
+        }
+
+        const originalText = button.innerText;
+
+        button.innerText = "Processing...";
+        button.disabled = true;
+        button.style.opacity = "0.7";
+
+        setTimeout(() => {
+            window.location.href = successPage;
+        }, 1200);
+
+    });
 
 }
 
-else if(text.includes("priority")){
-
-window.location.href = "demo/success-priority.html";
-
-}
-
-else if(text.includes("book")){
-
-window.location.href = "demo/success-booking.html";
-
-}
-
-});
-
-});
+handleForm("free-btn", "success-free.html");
+handleForm("priority-btn", "success-priority.html");
+handleForm("booking-btn", "success-booking.html");
