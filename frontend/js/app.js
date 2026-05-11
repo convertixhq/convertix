@@ -63,7 +63,6 @@ function handleForm(buttonId, successPage) {
     });
 
 }
-<script src="../frontend/js/app.js"></script>
 
 handleForm("free-btn", "success-free.html");
 handleForm("priority-btn", "success-priority.html");
