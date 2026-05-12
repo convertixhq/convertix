@@ -64,6 +64,3 @@ function handleForm(buttonId, successPage) {
 
 }
 
-handleForm("free-btn", "success-free.html");
-handleForm("priority-btn", "success-priority.html");
-handleForm("booking-btn", "success-booking.html");
