@@ -65,11 +65,37 @@
     <h1>Priority Consultation — £30</h1>
     <p>Fast-track your consultation request and receive priority scheduling from the clinic team.</p>
 
-    <input type="text" placeholder="Full name" required>
-    <input type="tel" placeholder="Phone number" required>
-    <input type="email" placeholder="Email address" required>
+    <form
+  action="https://formspree.io/f/mnjwwran"
+  method="POST"
+>
 
-    <button type="button" id="priority-btn">Pay £30</button>
+  <input
+    type="text"
+    name="name"
+    placeholder="Full name"
+    required
+  >
+
+  <input
+    type="tel"
+    name="phone"
+    placeholder="Phone number"
+    required
+  >
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Email address"
+    required
+  >
+
+  <button type="submit">
+    Pay £30
+  </button>
+
+</form>
 
     <div class="note">
       Secure payment. No account required. Clinic receives your request instantly.
