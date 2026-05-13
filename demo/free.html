@@ -109,16 +109,16 @@
         Enter your details and the clinic team will contact you within 24 hours.
       </p>
 
-      <form onsubmit="event.preventDefault(); window.location.href='confirmation.html';">
+      <form action="https://formspree.io/f/mnjwwran" method="POST">
         <label>Full name</label>
-        <input type="text" placeholder="Your name" required>
+        <input type="text" name="name" placeholder="Your name" required>
 
         <label>Phone number</label>
-        <input type="tel" placeholder="+44..." required>
+        <input type="tel" name="phone" placeholder="+44..." required>
 
         <label>Email</label>
-        <input type="email" placeholder="you@email.com" required>
-        <button type="button" id="free-btn">Request consultation</button>
+        <input type="email" name="email" placeholder="you@email.com" required>
+        <button type="submit">Request consultation</button>
         
       </form>
 
