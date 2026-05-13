@@ -69,11 +69,23 @@
     <h1>Book Clinic Visit (£50 deposit)</h1>
     <p>Select your appointment and secure your slot.</p>
 
-    <input type="text" placeholder="Full name" required>
-    <input type="tel" placeholder="Phone number" required>
-    <input type="date" required>
+    <form action="https://formspree.io/f/mnjwwran" method="POST">
 
-    <button type="button" id="booking-btn">Book appointment</button>
+  <input type="hidden" name="type" value="Clinic Visit Booking">
+
+  <input type="text" name="name" placeholder="Full name" required>
+
+  <input type="tel" name="phone" placeholder="Phone number" required>
+
+  <input type="email" name="email" placeholder="Email address" required>
+
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="hidden" name="_next" value="https://convertixhq.github.io/convertix/demo/success-booking.html">
+
+  <button type="submit">Book clinic visit</button>
+
+</form>
 
     <div class="note">
       Deposit is deducted from your treatment. Payments go directly to the clinic.
