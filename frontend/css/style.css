@@ -17,8 +17,8 @@ body{
     max-width:1180px;
     width:100%;
     display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
+    grid-template-columns:minmax(0,1.1fr) minmax(320px,480px);
+    column-gap:120px;
     align-items:center;
     margin:0 auto;
 }
