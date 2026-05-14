@@ -540,3 +540,13 @@ html {
         gap: 16px;
     }
 }
+.stats {
+    margin-top: 90px;
+    transform: translateX(-40px);
+}
+
+.pricing-section h2 {
+    font-size: 34px;
+    line-height: 1.1;
+    max-width: 360px;
+}
