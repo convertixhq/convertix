@@ -189,3 +189,30 @@ font-size:48px;
   text-decoration: none;
   font-weight: bold;
 }
+.stats {
+    display: flex;
+    gap: 18px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 18px 22px;
+    min-width: 170px;
+    backdrop-filter: blur(12px);
+}
+
+.stat h3 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    color: #6ef7ff;
+}
+
+.stat p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.4;
+}
