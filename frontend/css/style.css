@@ -6,27 +6,21 @@ font-family:Arial, sans-serif;
 }
 
 body{
-background:
-radial-gradient(circle at top,#0b1b4d,#050816 60%);
-color:white;
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-padding:40px;
+    background: radial-gradient(circle at top, #0b1b4d, #050816 60%);
+    color:white;
+    min-height:100vh;
+    padding:40px;
 }
 
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 160px;
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 360px);
-    gap: 70px;
-    align-items: start;
+.container{
+    padding-top:140px;
+    max-width:1180px;
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+    margin:0 auto;
 }
 
 .left h1{
