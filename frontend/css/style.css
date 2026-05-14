@@ -244,3 +244,23 @@ font-size:48px;
 .feature:hover h3 {
     color: #6ef7ff;
 }
+.trust-strip {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    padding: 18px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+}
+
+.trust-strip span {
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+}
