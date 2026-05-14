@@ -216,3 +216,31 @@ font-size:48px;
     color: rgba(255,255,255,0.7);
     line-height: 1.4;
 }
+.card,
+.stat,
+.btn,
+.badge,
+.feature {
+    transition: all 0.25s ease;
+}
+
+.card:hover,
+.stat:hover {
+    transform: translateY(-4px);
+    border-color: rgba(110,247,255,0.35);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(110,247,255,0.35);
+}
+
+.badge:hover {
+    background: rgba(110,247,255,0.12);
+    border-color: rgba(110,247,255,0.35);
+}
+
+.feature:hover h3 {
+    color: #6ef7ff;
+}
