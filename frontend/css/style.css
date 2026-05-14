@@ -481,3 +481,32 @@ html {
     box-shadow:
         0 10px 24px rgba(255,255,255,0.08);
 }
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    width: calc(100% - 48px);
+    max-width: 1180px;
+    margin: 0 auto 80px;
+    left: 0;
+    right: 0;
+}
+
+.nav-links a {
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .top-nav {
+        flex-direction: column;
+        gap: 18px;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}
