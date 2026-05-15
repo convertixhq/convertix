@@ -638,3 +638,55 @@ html {
     width: 100%;
     margin-top: 160px;
 }
+/* FINAL LAYOUT FIX */
+body{
+  display:block;
+  padding:0 24px 60px;
+  overflow-x:hidden;
+}
+
+.container{
+  max-width:1180px;
+  width:100%;
+  margin:0 auto;
+  padding-top:120px;
+  display:grid;
+  grid-template-columns:minmax(420px, 1fr) minmax(320px, 0.9fr);
+  gap:56px;
+  align-items:start;
+}
+
+.top-nav{
+  grid-column:1 / -1;
+  margin-bottom:50px;
+}
+
+.stats{
+  align-self:center;
+}
+
+.card{
+  grid-column:1 / 2;
+  margin-top:20px;
+}
+
+.trust-strip{
+  grid-column:2 / 3;
+  margin-top:20px;
+}
+
+.section-wrap,
+.pricing-section,
+.final-cta{
+  grid-column:1 / -1;
+  width:100%;
+}
+
+.pricing-section{
+  margin-top:70px;
+}
+
+.final-cta{
+  margin-top:80px;
+  margin-bottom:40px;
+}
