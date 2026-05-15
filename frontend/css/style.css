@@ -824,3 +824,30 @@ section{
 .final-card{
   padding:42px 48px !important;
 }
+/* FINAL PAGE HEIGHT FIX */
+
+.container{
+  padding-top:70px !important;
+  gap:35px !important;
+}
+
+.card{
+  padding:28px !important;
+  margin-top:10px !important;
+}
+
+.trust-strip{
+  margin-top:25px !important;
+}
+
+.pricing-section{
+  margin-top:30px !important;
+}
+
+.pricing-grid{
+  margin-top:20px !important;
+}
+
+.final-cta{
+  margin-top:35px !important;
+}
