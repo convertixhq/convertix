@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Free Consultation — Convertix Demo</title>
+  <title>Request Sent — Convertix</title>
+
   <link rel="stylesheet" href="../frontend/css/style.css" />
 </head>
 
 <body>
+
   <div class="bg-glow glow-1"></div>
   <div class="bg-glow glow-2"></div>
   <div class="bg-glow glow-3"></div>
@@ -24,53 +26,35 @@
   </nav>
 
   <main class="page demo-page">
-    <section class="demo-card">
-      <div class="mini-label">FREE CONSULTATION</div>
 
-      <h1>Request your free callback</h1>
+    <section class="demo-card success-card">
+
+      <div class="success-icon">✓</div>
+
+      <div class="mini-label">REQUEST SENT</div>
+
+      <h1>Your callback request has been received</h1>
 
       <p>
-        Leave your details and the clinic team will contact you within 24 hours.
+        The clinic team will review your details and contact you within 24 hours.
       </p>
 
-      <form action="success-free.html" method="get" class="demo-form">
-        <label>
-          Full name
-          <input type="text" name="name" required />
-        </label>
+      <div class="success-summary">
+        <span>No payment required</span>
+        <span>Details sent directly to the clinic</span>
+        <span>Fast callback workflow</span>
+      </div>
 
-        <label>
-          Phone number
-          <input type="tel" name="phone" required />
-        </label>
+      <div class="final-buttons">
+        <a href="clinic.html" class="btn primary">Back to demo</a>
+        <a href="../index.html" class="btn secondary">Return home</a>
+      </div>
 
-        <label>
-          Email address
-          <input type="email" name="email" required />
-        </label>
-
-        <label>
-          What treatment are you interested in?
-          <select name="treatment" required>
-            <option value="">Choose an option</option>
-            <option>Hair restoration</option>
-            <option>Skin treatment</option>
-            <option>Dental consultation</option>
-            <option>Private clinic consultation</option>
-          </select>
-        </label>
-
-        <button type="submit" class="btn primary">
-          Request free consultation
-        </button>
-      </form>
-
-      <p class="demo-note">
-        No payment required. Your details go directly to the clinic.
-      </p>
     </section>
+
   </main>
 
   <script src="../frontend/js/app.js"></script>
+
 </body>
 </html>
