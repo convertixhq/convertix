@@ -6,10 +6,10 @@ font-family:Arial, sans-serif;
 }
 
 body{
-    background: radial-gradient(circle at top, #0b1b4d, #050816 60%);
-    color:white;
-    min-height:100vh;
-    padding:40px;
+  background: radial-gradient(circle at top, #0b1b4d, #050816 60%);
+  color:white;
+  min-height:100vh;
+  padding:24px;
 }
 
 .container{
@@ -18,7 +18,7 @@ body{
   width:100%;
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:50px;
+  gap:40px;
   align-items:start;
   margin:0 auto;
 }
@@ -302,8 +302,9 @@ font-size:48px;
     color: #7ef9ff;
 }
 
-.pricing-section {
-    margin-top: 60px;
+.pricing-section{
+  grid-column:1 / -1;
+  margin-top:40px;
 }
 
 .pricing-section h2 {
@@ -545,10 +546,9 @@ html {
     max-width: 360px;
 }
 .final-cta{
-    margin-top: 80px;
-    padding-bottom: 120px;
-    display:flex;
-    justify-content:center;
+  grid-column:1 / -1;
+  width:100%;
+  margin-top:50px;
 }
 
 .final-card{
