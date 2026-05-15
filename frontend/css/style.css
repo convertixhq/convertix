@@ -678,3 +678,44 @@ body{
     padding:34px;
   }
 }
+.demo-form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-top:30px;
+}
+
+.demo-form label{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  font-size:14px;
+  font-weight:700;
+  color:white;
+}
+
+.demo-form input,
+.demo-form select{
+  width:100%;
+  padding:16px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.08);
+  background:rgba(255,255,255,0.05);
+  color:white;
+  font-size:15px;
+  outline:none;
+}
+
+.demo-form input::placeholder{
+  color:#94a3b8;
+}
+
+.demo-form select{
+  cursor:pointer;
+}
+
+.demo-form button{
+  margin-top:10px;
+  border:none;
+  cursor:pointer;
+}
