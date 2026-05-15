@@ -49,12 +49,12 @@ body{
 }
 
 .top-nav{
-  position:fixed;
-  top:18px;
-  left:50%;
-  transform:translateX(-50%);
+  position:sticky;
+  top:16px;
+  left:auto;
+  transform:none;
   width:calc(100% - 40px);
-  max-width:980px;
+  max-width:100%;
   padding:16px 24px;
   border-radius:18px;
   background:rgba(18,20,40,0.72);
