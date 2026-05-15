@@ -874,3 +874,56 @@ body{
     padding:34px;
   }
 }
+.lead-form{
+  display:grid;
+  gap:16px;
+  margin-top:26px;
+}
+
+.lead-form label{
+  display:grid;
+  gap:8px;
+  font-size:13px;
+  font-weight:700;
+}
+
+.lead-form input,
+.lead-form select{
+  width:100%;
+  padding:15px 16px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.14);
+  background:rgba(255,255,255,0.08);
+  color:white;
+  outline:none;
+}
+
+.lead-form option{
+  color:#07111f;
+}
+
+.payment-summary{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  padding:18px;
+  border-radius:18px;
+  background:rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+.payment-summary div{
+  display:grid;
+  gap:6px;
+}
+
+.payment-summary span{
+  color:#cbd5e1;
+  font-size:13px;
+}
+
+.form-submit{
+  width:100%;
+  border:none;
+  cursor:pointer;
+}
