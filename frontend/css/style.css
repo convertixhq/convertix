@@ -49,7 +49,7 @@ body{
 }
 
 .top-nav{
-  position:sticky;
+  position:static;
   top:16px;
   left:auto;
   transform:none;
