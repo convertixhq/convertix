@@ -394,3 +394,40 @@ body{
     gap:14px;
   }
 }
+/* FINAL DESKTOP POLISH */
+
+.pricing-section{
+  width:100%;
+  max-width:1120px;
+  margin:40px auto 0;
+}
+
+.pricing-section h2,
+.pricing-intro{
+  text-align:center;
+  max-width:none;
+}
+
+.pricing-intro{
+  margin-bottom:32px;
+}
+
+.pricing-grid{
+  align-items:stretch;
+}
+
+.final-cta{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin:50px auto 70px;
+}
+
+.top-nav{
+  width:calc(100% - 40px);
+  max-width:980px;
+}
+
+.stats{
+  justify-self:end;
+}
