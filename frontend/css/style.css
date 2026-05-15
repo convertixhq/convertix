@@ -712,3 +712,25 @@ body{
   width:100%;
   max-width:760px;
 }
+/* COMPACT FINAL SPACING FIX */
+
+.card{
+  margin-top:22px;
+}
+
+.trust-strip{
+  margin-top:22px;
+}
+
+.pricing-section{
+  margin-top:36px;
+}
+
+.final-cta{
+  margin-top:42px;
+  margin-bottom:60px;
+}
+
+.final-card{
+  padding:48px 36px;
+}
