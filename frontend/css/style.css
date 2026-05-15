@@ -489,3 +489,22 @@ body{
   max-width:860px;
   padding:14px 22px;
 }
+/* FIX FIXED NAV OVERLAP */
+
+#features,
+#pricing,
+.final-cta{
+  scroll-margin-top:140px;
+}
+
+.pricing-section{
+  padding-top:90px;
+}
+
+.final-cta{
+  padding-top:90px;
+}
+
+.card{
+  scroll-margin-top:140px;
+}
