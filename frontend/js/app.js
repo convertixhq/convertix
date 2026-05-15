@@ -1,23 +1,19 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+const revealElements = document.querySelectorAll(
+  ".hero, .features-card, .pricing-section, .final-card"
+);
 
-        const target = document.querySelector(this.getAttribute('href'));
+const revealOnScroll = () => {
+  const triggerBottom = window.innerHeight * 0.85;
 
-        if(target){
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-    });
-});
+  revealElements.forEach((element) => {
+    const elementTop = element.getBoundingClientRect().top;
 
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('.top-nav');
-
-    if(window.scrollY > 40){
-        nav.classList.add('nav-scrolled');
-    } else {
-        nav.classList.remove('nav-scrolled');
+    if (elementTop < triggerBottom) {
+      element.classList.add("show");
     }
-});
+  });
+};
+
+window.addEventListener("scroll", revealOnScroll);
+
+revealOnScroll();
