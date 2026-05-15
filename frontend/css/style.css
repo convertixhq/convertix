@@ -801,3 +801,26 @@ section{
 .final-card{
   max-width:760px;
 }
+/* FINAL COMPACT FIX */
+
+.pricing-section{
+  margin-top:40px !important;
+  padding-top:0 !important;
+}
+
+.pricing-grid{
+  gap:18px !important;
+}
+
+.price-card{
+  min-height:0 !important;
+  padding:28px !important;
+}
+
+.final-cta{
+  margin-top:45px !important;
+}
+
+.final-card{
+  padding:42px 48px !important;
+}
