@@ -49,8 +49,9 @@ body{
 }
 
 .top-nav{
-  position:static;
+  position:sticky;
   top:16px;
+  margin:20px auto 0;
   left:auto;
   transform:none;
   width:calc(100% - 40px);
