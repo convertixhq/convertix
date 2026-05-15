@@ -423,3 +423,69 @@ body{
     gap:14px;
   }
 }
+/* FINAL DESKTOP SCREEN FIT */
+
+.container{
+  padding-top:95px;
+}
+
+.hero-section{
+  gap:36px;
+}
+
+.hero-left h1{
+  font-size:60px;
+  max-width:620px;
+}
+
+.hero-left p{
+  font-size:17px;
+  max-width:520px;
+}
+
+.stats{
+  margin-top:55px;
+  gap:14px;
+}
+
+.stat{
+  padding:18px;
+}
+
+.card{
+  margin-top:30px;
+  padding:28px;
+}
+
+.features-section{
+  margin-top:40px;
+}
+
+.pricing-section{
+  margin-top:60px;
+}
+
+.pricing-section h2{
+  font-size:44px;
+}
+
+.price-card{
+  padding:24px;
+}
+
+.final-cta{
+  margin-top:60px;
+}
+
+.final-card{
+  padding:48px 36px;
+}
+
+.final-card h2{
+  font-size:44px;
+}
+
+.top-nav{
+  max-width:860px;
+  padding:14px 22px;
+}
