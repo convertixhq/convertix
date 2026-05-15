@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Priority Consultation — Convertix Demo</title>
+  <title>Priority Consultation — Convertix</title>
+
   <link rel="stylesheet" href="../frontend/css/style.css" />
 </head>
 
 <body>
+
   <div class="bg-glow glow-1"></div>
   <div class="bg-glow glow-2"></div>
   <div class="bg-glow glow-3"></div>
@@ -24,8 +26,12 @@
   </nav>
 
   <main class="page demo-page">
+
     <section class="demo-card form-card">
-      <span class="mini-label">PRIORITY CONSULTATION</span>
+
+      <div class="mini-label">
+        PRIORITY CONSULTATION
+      </div>
 
       <h1>Get priority access</h1>
 
@@ -34,53 +40,61 @@
       </p>
 
       <form class="lead-form" action="success-priority.html">
+
         <label>
           Full name
-          <input type="text" name="name" required />
+          <input type="text" required />
         </label>
 
         <label>
           Phone number
-          <input type="tel" name="phone" required />
+          <input type="tel" required />
         </label>
 
         <label>
           Email address
-          <input type="email" name="email" required />
+          <input type="email" required />
         </label>
 
         <label>
           Main treatment interest
-          <select name="treatment" required>
+
+          <select required>
             <option value="">Choose an option</option>
             <option>Hair restoration</option>
             <option>Dental consultation</option>
-            <option>Skin / aesthetics</option>
+            <option>Skin treatment</option>
             <option>Weight loss consultation</option>
-            <option>Other private treatment</option>
+            <option>Other</option>
           </select>
         </label>
 
         <div class="payment-summary">
+
           <div>
             <strong>Priority consultation</strong>
             <span>Faster callback + priority scheduling</span>
           </div>
 
           <strong>£30</strong>
+
         </div>
 
         <button type="submit" class="btn primary form-submit">
           Continue to priority payment
         </button>
+
       </form>
 
       <p class="demo-note">
-        Demo only. Later this button can connect to Stripe, Square, or the clinic’s own payment processor.
+        Demo only. Later this button can connect to Stripe, Square, or the clinic's own payment processor.
       </p>
+
     </section>
+
   </main>
 
   <script src="../frontend/js/app.js"></script>
+
 </body>
 </html>
