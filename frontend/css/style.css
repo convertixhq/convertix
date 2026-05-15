@@ -398,3 +398,39 @@ body{
     justify-content:center;
   }
 }
+.price-card{
+  transition:0.35s ease;
+}
+
+.price-card:hover{
+  transform:translateY(-10px);
+  border-color:rgba(88,255,255,0.4);
+  box-shadow:0 25px 60px rgba(0,0,0,0.45);
+}
+
+.stat{
+  transition:0.3s ease;
+}
+
+.stat:hover{
+  transform:translateY(-6px);
+  border-color:rgba(88,255,255,0.25);
+}
+
+.features-card{
+  transition:0.35s ease;
+}
+
+.features-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 50px rgba(0,0,0,0.35);
+}
+
+.final-card{
+  transition:0.35s ease;
+}
+
+.final-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 25px 60px rgba(0,0,0,0.4);
+}
