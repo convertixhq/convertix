@@ -770,3 +770,34 @@ body{
 .final-card{
   padding:38px 32px;
 }
+/* FINAL SCROLL + SECTION SPACING FIX */
+
+html{
+  scroll-padding-top:120px;
+}
+
+section{
+  scroll-margin-top:120px;
+}
+
+.pricing-section{
+  margin-top:20px !important;
+}
+
+.pricing-section h2,
+.pricing-intro{
+  position:relative;
+  z-index:1;
+}
+
+.pricing-grid{
+  gap:20px;
+}
+
+.final-cta{
+  margin-top:28px !important;
+}
+
+.final-card{
+  max-width:760px;
+}
