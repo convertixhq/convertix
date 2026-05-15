@@ -434,3 +434,28 @@ body{
   transform:translateY(-8px);
   box-shadow:0 25px 60px rgba(0,0,0,0.4);
 }
+@keyframes floatGlow{
+  0%{
+    transform:translateY(0px) scale(1);
+  }
+
+  50%{
+    transform:translateY(-20px) scale(1.05);
+  }
+
+  100%{
+    transform:translateY(0px) scale(1);
+  }
+}
+
+.bg-glow{
+  animation:floatGlow 8s ease-in-out infinite;
+}
+
+.glow-2{
+  animation-delay:2s;
+}
+
+.glow-3{
+  animation-delay:4s;
+}
