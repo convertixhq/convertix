@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Request Received</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../frontend/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request Sent — Convertix</title>
+
+  <link rel="stylesheet" href="../frontend/css/style.css" />
 </head>
+
 <body>
 
-  <main class="success-wrap">
-    <section class="success-card">
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <nav class="top-nav">
+    <div class="nav-logo">CONVERT<span>IX</span></div>
+
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="clinic.html">Demo</a>
+      <a href="priority.html">Priority</a>
+      <a href="booking.html">Booking</a>
+    </div>
+  </nav>
+
+  <main class="page demo-page">
+
+    <section class="demo-card success-card">
+
       <div class="success-icon">✓</div>
-      <h1>Request received</h1>
-      <p>The clinic team will contact you within 24 hours.</p>
-      <a href="clinic.html" class="success-btn">Back to demo</a>
+
+      <div class="mini-label">REQUEST SENT</div>
+
+      <h1>Your callback request has been received</h1>
+
+      <p>
+        The clinic team will review your details and contact you within 24 hours.
+      </p>
+
+      <div class="success-summary">
+        <span>No payment required</span>
+        <span>Details sent directly to the clinic</span>
+        <span>Fast callback workflow</span>
+      </div>
+
+      <div class="final-buttons">
+        <a href="clinic.html" class="btn primary">Back to demo</a>
+        <a href="../index.html" class="btn secondary">Return home</a>
+      </div>
+
     </section>
+
   </main>
+
+  <script src="../frontend/js/app.js"></script>
 
 </body>
 </html>
