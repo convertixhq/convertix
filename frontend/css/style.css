@@ -734,3 +734,39 @@ body{
 .final-card{
   padding:48px 36px;
 }
+/* FINAL PAGE COMPACT FIX */
+
+.container{
+  min-height:auto;
+  padding-top:120px;
+  padding-bottom:60px;
+  row-gap:28px;
+}
+
+.card{
+  margin-top:10px;
+  padding:28px;
+}
+
+.trust-strip{
+  margin-top:10px;
+}
+
+.pricing-section{
+  margin-top:30px;
+  padding-top:0;
+}
+
+.pricing-grid{
+  margin-top:24px;
+}
+
+.final-cta{
+  margin-top:35px;
+  padding-top:0;
+  padding-bottom:50px;
+}
+
+.final-card{
+  padding:38px 32px;
+}
