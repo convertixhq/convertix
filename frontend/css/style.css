@@ -981,6 +981,23 @@ body{
 .page{
   padding-top:90px !important;
 }
+/* HOMEPAGE VISIBILITY FIX */
+.hero{
+  display:grid !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+
+.hero-copy,
+.stats,
+.features-card,
+.pricing-section,
+.final-cta,
+.trust-strip{
+  visibility:visible !important;
+  opacity:1 !important;
+}
+
 /* FINAL HOMEPAGE SPACING FIX */
 .page{
   padding-top:120px !important;
@@ -1006,4 +1023,35 @@ body{
 .final-cta{
   padding-top:30px !important;
   margin-bottom:80px !important;
+}
+
+/* FINAL SECTION SPACING FIX */
+
+.features-card{
+    margin-bottom: 90px !important;
+}
+
+.trust-strip{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    margin-top: 40px !important;
+    margin-bottom: 100px !important;
+
+    z-index: 5;
+}
+
+.pricing-section{
+    padding-top: 40px !important;
+    clear: both !important;
+}
+
+.final-card{
+    margin-top: 60px !important;
 }
