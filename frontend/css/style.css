@@ -1058,3 +1058,8 @@ body{
 .final-card{
     margin-top: 0 !important;
 }
+
+/* TRUST BADGE DROP FIX */
+.trust-strip{
+  margin-top: 70px !important;
+}
