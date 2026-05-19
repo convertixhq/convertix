@@ -1007,34 +1007,3 @@ body{
   padding-top:30px !important;
   margin-bottom:80px !important;
 }
-
-/* FINAL SECTION SPACING FIX */
-
-.features-card{
-    margin-bottom: 90px !important;
-}
-
-.trust-strip{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-
-    position: relative !important;
-    top: auto !important;
-    bottom: auto !important;
-
-    margin-top: 40px !important;
-    margin-bottom: 100px !important;
-
-    z-index: 5;
-}
-
-.pricing-section{
-    padding-top: 40px !important;
-    clear: both !important;
-}
-
-.final-card{
-    margin-top: 60px !important;
-}
