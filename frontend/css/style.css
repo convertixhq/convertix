@@ -981,65 +981,33 @@ body{
 .page{
   padding-top:90px !important;
 }
-/* HOMEPAGE VISIBILITY FIX */
-.hero{
-  display:grid !important;
-  visibility:visible !important;
-  opacity:1 !important;
-}
-
-.hero-copy,
-.stats,
-.features-card,
-.pricing-section,
-.final-cta,
-.trust-strip{
-  visibility:visible !important;
-  opacity:1 !important;
-}
-/* FINAL HOMEPAGE SPACING FIX */
-.page{
-  padding-top:120px !important;
-}
-
-.hero{
-  margin-bottom:90px !important;
-}
+/* FINAL SECTION SPACING FIX */
 
 .features-card{
-  margin-bottom:32px !important;
+    margin-bottom: 90px !important;
 }
 
 .trust-strip{
-  margin-bottom:90px !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    margin-top: 40px !important;
+    margin-bottom: 100px !important;
+
+    z-index: 5;
 }
 
 .pricing-section{
-  padding-top:40px !important;
-  margin-bottom:110px !important;
-}
-
-.final-cta{
-  padding-top:30px !important;
-  margin-bottom:80px !important;
-}
-/* OVERLAP FIX */
-.features-card{
-  margin-bottom:42px !important;
-}
-
-.trust-strip{
-  position:relative !important;
-  z-index:2 !important;
-  margin-top:0 !important;
-  margin-bottom:120px !important;
-}
-
-.pricing-section{
-  clear:both !important;
-  padding-top:20px !important;
+    padding-top: 40px !important;
+    clear: both !important;
 }
 
 .final-card{
-  margin-top:40px !important;
+    margin-top: 60px !important;
 }
