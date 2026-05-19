@@ -1,19 +1,10 @@
-const revealElements = document.querySelectorAll(
-  ".hero, .features-card, .pricing-section, .final-card"
-);
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
 
-const revealOnScroll = () => {
-  const triggerBottom = window.innerHeight * 0.85;
+if(menuToggle){
 
-  revealElements.forEach((element) => {
-    const elementTop = element.getBoundingClientRect().top;
-
-    if (elementTop < triggerBottom) {
-      element.classList.add("show");
-    }
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
   });
-};
 
-window.addEventListener("scroll", revealOnScroll);
-
-revealOnScroll();
+}
