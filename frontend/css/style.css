@@ -981,3 +981,19 @@ body{
 .page{
   padding-top:90px !important;
 }
+/* HOMEPAGE VISIBILITY FIX */
+.hero{
+  display:grid !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+
+.hero-copy,
+.stats,
+.features-card,
+.pricing-section,
+.final-cta,
+.trust-strip{
+  visibility:visible !important;
+  opacity:1 !important;
+}
