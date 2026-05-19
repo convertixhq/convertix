@@ -1025,33 +1025,36 @@ body{
   margin-bottom:80px !important;
 }
 
-/* FINAL SECTION SPACING FIX */
+/* BALANCED LAYOUT SPACING */
+
+.hero{
+    padding-bottom: 90px !important;
+}
 
 .features-card{
-    margin-bottom: 90px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
 }
 
 .trust-strip{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:16px;
 
-    position: relative !important;
-    top: auto !important;
-    bottom: auto !important;
-
-    margin-top: 40px !important;
-    margin-bottom: 100px !important;
-
-    z-index: 5;
+    margin-top: 30px !important;
+    margin-bottom: 70px !important;
 }
 
 .pricing-section{
-    padding-top: 40px !important;
-    clear: both !important;
+    padding-top: 10px !important;
+    margin-top: 0 !important;
+}
+
+.final-cta{
+    padding-top: 80px !important;
 }
 
 .final-card{
-    margin-top: 60px !important;
+    margin-top: 0 !important;
 }
