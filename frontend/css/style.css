@@ -981,6 +981,33 @@ body{
 .page{
   padding-top:90px !important;
 }
+/* FINAL HOMEPAGE SPACING FIX */
+.page{
+  padding-top:120px !important;
+}
+
+.hero{
+  margin-bottom:90px !important;
+}
+
+.features-card{
+  margin-bottom:32px !important;
+}
+
+.trust-strip{
+  margin-bottom:90px !important;
+}
+
+.pricing-section{
+  padding-top:40px !important;
+  margin-bottom:110px !important;
+}
+
+.final-cta{
+  padding-top:30px !important;
+  margin-bottom:80px !important;
+}
+
 /* FINAL SECTION SPACING FIX */
 
 .features-card{
