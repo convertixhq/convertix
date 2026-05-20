@@ -33,3 +33,16 @@ counters.forEach(counter => {
 
   updateCounter();
 });
+
+
+const nav = document.querySelector(".top-nav");
+
+window.addEventListener("scroll", () => {
+
+  if (window.scrollY > 40) {
+    nav.classList.add("nav-scrolled");
+  } else {
+    nav.classList.remove("nav-scrolled");
+  }
+
+});
