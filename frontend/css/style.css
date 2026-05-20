@@ -577,14 +577,15 @@ body{
     backdrop-filter 0.3s ease;
 }
 
-.nav-scrolled {
-  background: rgba(8, 8, 18, 0.82);
+.nav-scrolled{
+  background: rgba(10,10,20,0.78);
 
-  border-bottom: 1px solid rgba(120,180,255,0.12);
+  backdrop-filter: blur(18px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 
   box-shadow:
-    0 10px 40px rgba(0,0,0,0.35),
-    0 0 30px rgba(0,140,255,0.08);
+    0 10px 40px rgba(0,0,0,0.28);
 }
 
 .demo-page{
