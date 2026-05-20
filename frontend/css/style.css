@@ -48,23 +48,28 @@ body{
   left:35%;
 }
 
-.top-nav{
-  position:sticky;
-  top:16px;
-  margin:20px auto 0;
-  left:auto;
-  transform:none;
-  width:calc(100% - 40px);
-  max-width:100%;
-  padding:16px 24px;
-  border-radius:18px;
-  background:rgba(18,20,40,0.72);
-  border:1px solid rgba(255,255,255,0.08);
-  backdrop-filter:blur(16px);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  z-index:1000;
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.2rem 2rem;
+
+  background: rgba(10, 10, 20, 0.55);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .nav-logo,
@@ -546,16 +551,16 @@ body{
     backdrop-filter 0.3s ease;
 }
 
-.nav-scrolled{
-  background:rgba(10,12,28,0.92);
+.nav-scrolled {
+  background: rgba(8, 8, 18, 0.82);
 
-  border-color:rgba(88,255,255,0.18);
+  border-bottom: 1px solid rgba(120,180,255,0.12);
 
   box-shadow:
-    0 10px 40px rgba(0,0,0,0.35);
-
-  backdrop-filter:blur(20px);
+    0 10px 40px rgba(0,0,0,0.35),
+    0 0 30px rgba(0,140,255,0.08);
 }
+
 .demo-page{
   display:flex;
   justify-content:center;
