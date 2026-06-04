@@ -931,4 +931,49 @@ body{
   animation:floatGlow 8s ease-in-out infinite;
 }
 
+/* FINAL DARK THEME RESTORE */
+html,
+body{
+  background:#050816 !important;
+  color:white !important;
+  overflow-x:hidden !important;
+}
+
+.page{
+  background:transparent !important;
+}
+
+.hero,
+.features-card,
+.pricing-section,
+.price-card,
+.footer,
+.trust-strip,
+.stat{
+  color:white !important;
+}
+
+.hero-copy p,
+.feature p,
+.pricing-intro,
+.price-card p,
+.footer p,
+.stat p{
+  color:#cbd5e1 !important;
+}
+
+.price-card,
+.features-card,
+.stat{
+  background:rgba(255,255,255,0.05) !important;
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:radial-gradient(circle at top,#0b1b4d,#050816 65%);
+  z-index:-10;
+}
+
 }
