@@ -976,4 +976,41 @@ body::before{
   z-index:-10;
 }
 
+/* FINAL MOBILE SCROLL FIX */
+html,
+body{
+  height:auto !important;
+  min-height:100% !important;
+  overflow-x:hidden !important;
+  overflow-y:auto !important;
+  -webkit-overflow-scrolling:touch !important;
+}
+
+body{
+  position:relative !important;
+  overscroll-behavior:auto !important;
+}
+
+.page{
+  height:auto !important;
+  min-height:auto !important;
+  overflow:visible !important;
+  padding-bottom:40px !important;
+}
+
+.bg-glow{
+  position:fixed !important;
+  pointer-events:none !important;
+}
+
+.hero,
+.features-card,
+.pricing-section,
+.price-card,
+.footer,
+.trust-strip,
+.stat{
+  touch-action:auto !important;
+}
+
 }
