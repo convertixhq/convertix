@@ -1,25 +1,23 @@
 function initNavbar() {
-
   const menuToggle = document.querySelector(".menu-toggle");
   const navLinks = document.querySelector(".nav-links");
   const nav = document.querySelector(".top-nav");
 
   if (menuToggle && navLinks) {
-
-    menuToggle.addEventListener("click", () => {
+    menuToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
       navLinks.classList.toggle("active");
       menuToggle.classList.toggle("open");
     });
 
-    document.addEventListener("click", (e) => {
-  const clickedInsideMenu = navLinks.contains(e.target);
-  const clickedToggle = menuToggle.contains(e.target);
+    navLinks.addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
 
-  if (!clickedInsideMenu && !clickedToggle) {
-    navLinks.classList.remove("active");
-    menuToggle.classList.remove("open");
-  }
-});
+    document.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+      menuToggle.classList.remove("open");
+    });
 
     document.querySelectorAll(".nav-links a").forEach(link => {
       link.addEventListener("click", () => {
