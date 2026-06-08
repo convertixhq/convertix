@@ -11,6 +11,16 @@ function initNavbar() {
       menuToggle.classList.toggle("open");
     });
 
+    document.addEventListener("click", (e) => {
+  const clickedInsideMenu = navLinks.contains(e.target);
+  const clickedToggle = menuToggle.contains(e.target);
+
+  if (!clickedInsideMenu && !clickedToggle) {
+    navLinks.classList.remove("active");
+    menuToggle.classList.remove("open");
+  }
+});
+
     document.querySelectorAll(".nav-links a").forEach(link => {
       link.addEventListener("click", () => {
         navLinks.classList.remove("active");
