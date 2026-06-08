@@ -40,30 +40,30 @@
       <h1>Get priority access</h1>
 
       <p>
-        Pay a small consultation fee to be contacted faster and receive priority scheduling from the clinic team.
+        Request faster clinic follow-up with a priority consultation workflow designed for high-intent patients who want quicker scheduling.
       </p>
 
       <form class="lead-form" action="https://formspree.io/f/mnjwwran" method="POST">
 
         <label>
           Full name
-          <input type="text" required />
+          <input type="text" name="full_name" placeholder="John Smith" required />
         </label>
 
         <label>
           Phone number
-          <input type="tel" required />
+          <input type="tel" name="phone" placeholder="+44 7700 900000" required />
         </label>
 
         <label>
           Email address
-          <input type="email" required />
+          <input type="email" name="email" placeholder="john@email.com" required />
         </label>
 
         <label>
           Main treatment interest
 
-          <select required>
+          <select name="treatment" required>
             <option value="">Choose an option</option>
             <option>Hair restoration</option>
             <option>Dental consultation</option>
@@ -89,7 +89,7 @@
         <input type="hidden" name="form_type" value="Priority Consultation">
 
         <button type="submit" class="btn primary form-submit">
-          Continue to priority payment
+          Request priority consultation
         </button>
 
       </form>
