@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Free Consultation — Convertix</title>
 
   <link rel="stylesheet" href="../frontend/css/style.css" />
@@ -15,10 +17,13 @@
   <div class="bg-glow glow-3"></div>
 
   <nav class="top-nav">
-    <div class="nav-logo">CONVERT<span>IX</span></div>
+
+    <div class="nav-logo">
+      CONVERT<span>IX</span>
+    </div>
 
     <button class="menu-toggle">
-    ☰
+      ☰
     </button>
 
     <div class="nav-links">
@@ -27,6 +32,7 @@
       <a href="priority.html">Priority</a>
       <a href="booking.html">Booking</a>
     </div>
+
   </nav>
 
   <main class="page demo-page">
@@ -37,53 +43,109 @@
         FREE CONSULTATION
       </div>
 
-      <h1>Request your free callback</h1>
+      <h1>
+        Request your free callback
+      </h1>
 
       <p>
-        Leave your details and the clinic team will contact you within 24 hours.
+        Complete the short form below and the clinic team will contact you within 24 hours to discuss your consultation options.
       </p>
 
-      <form class="lead-form" action="https://formspree.io/f/mnjwwran" method="POST">
+      <form
+        class="lead-form"
+        action="https://formspree.io/f/mnjwwran"
+        method="POST"
+      >
 
         <label>
           Full name
-          <input type="text" required />
+
+          <input
+            type="text"
+            name="full_name"
+            placeholder="John Smith"
+            required
+          />
         </label>
 
         <label>
           Phone number
-          <input type="tel" required />
+
+          <input
+            type="tel"
+            name="phone"
+            placeholder="+44 7700 900000"
+            required
+          />
         </label>
 
         <label>
           Email address
-          <input type="email" required />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="john@email.com"
+            required
+          />
         </label>
 
         <label>
-          What treatment are you interested in?
+          Treatment interest
 
-          <select required>
-            <option value="">Choose an option</option>
-            <option>Hair restoration</option>
-            <option>Dental consultation</option>
-            <option>Skin treatment</option>
-            <option>Weight loss consultation</option>
-            <option>Other</option>
+          <select name="treatment" required>
+
+            <option value="">
+              Choose an option
+            </option>
+
+            <option>
+              Hair restoration
+            </option>
+
+            <option>
+              Dental consultation
+            </option>
+
+            <option>
+              Skin treatment
+            </option>
+
+            <option>
+              Weight loss consultation
+            </option>
+
+            <option>
+              Other
+            </option>
+
           </select>
+
         </label>
 
-        <input type="hidden" name="_redirect" value="https://convertixhq.github.io/convertix/demo/success-free.html">
-        <input type="hidden" name="form_type" value="Free Consultation">
+        <input
+          type="hidden"
+          name="_redirect"
+          value="https://convertixhq.github.io/convertix/demo/success-free.html"
+        />
 
-        <button type="submit" class="btn primary form-submit">
+        <input
+          type="hidden"
+          name="form_type"
+          value="Free Consultation"
+        />
+
+        <button
+          type="submit"
+          class="btn primary form-submit"
+        >
           Request free consultation
         </button>
 
       </form>
 
       <p class="demo-note">
-        No payment required. Your details go directly to the clinic.
+        No payment required. All enquiries are sent directly to the clinic.
       </p>
 
     </section>
@@ -93,4 +155,5 @@
   <script src="../frontend/js/app.js"></script>
 
 </body>
+
 </html>
