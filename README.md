@@ -1,9 +1,9 @@
-# convertix
-Convertix - High-converting booking system for clinics
+# claudine
+Claudine - High-converting booking system for clinics
 
-## Convertix v1 Status
+## Claudine v1 Status
 
-Convertix v1 live prototype is working.
+Claudine v1 live prototype is working.
 
 ### Status
 - Homepage live
@@ -14,4 +14,4 @@ Convertix v1 live prototype is working.
 - Main buttons tested
 
 ### Live URL
-https://convertixhq.github.io/convertix/
+https://convertixhq.github.io/claudine/
