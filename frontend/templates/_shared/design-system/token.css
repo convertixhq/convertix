@@ -1,0 +1,71 @@
+:root {
+
+  /* =========================
+     COLORS
+  ========================= */
+
+  --cld-bg: #050816;
+  --cld-surface: #0d1326;
+  --cld-surface-2: #121a30;
+
+  --cld-text: #f5f7ff;
+  --cld-text-soft: #b8c2d9;
+
+  --cld-border: rgba(255,255,255,0.08);
+
+  --cld-primary: #7be7ff;
+  --cld-primary-soft: #baf4ff;
+
+  --cld-success: #47d18c;
+  --cld-warning: #ffc857;
+  --cld-danger: #ff5f6d;
+
+  /* =========================
+     SPACING
+  ========================= */
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+
+  /* =========================
+     RADIUS
+  ========================= */
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  /* =========================
+     SHADOWS
+  ========================= */
+
+  --shadow-soft:
+    0 10px 30px rgba(0,0,0,0.25);
+
+  --shadow-premium:
+    0 20px 60px rgba(0,0,0,0.45);
+
+  /* =========================
+     MOTION
+  ========================= */
+
+  --motion-fast: 180ms;
+  --motion-medium: 320ms;
+  --motion-slow: 600ms;
+
+  --ease-premium:
+    cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* =========================
+     LAYOUT
+  ========================= */
+
+  --container-width: 1280px;
+
+}

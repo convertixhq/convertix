@@ -1,0 +1,57 @@
+.cld-hero{
+  position:relative;
+
+  isolation:isolate;
+
+  min-height:100vh;
+
+  display:flex;
+  align-items:center;
+
+  padding:10rem 0 8rem;
+
+  overflow:hidden;
+}
+
+.cld-hero::before{
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+
+    radial-gradient(
+      circle at 30% 32%,
+      rgba(82,170,255,0.05),
+      transparent 45%
+    ),
+
+    radial-gradient(
+      circle at 82% 52%,
+      rgba(82,170,255,0.05),
+      transparent 35%
+    );
+
+  pointer-events:none;
+}
+
+.cld-hero__content{
+  position:relative;
+  z-index:2;
+
+  max-width:1100px;
+
+  padding-right:4rem;
+}
+
+.cld-hero h1{
+  margin-bottom:1.5rem;
+
+  color:#ffffff;
+}
+
+.cld-hero p{
+  color:rgba(255,255,255,0.90);
+}

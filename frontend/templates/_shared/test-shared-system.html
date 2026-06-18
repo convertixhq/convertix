@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Claudine Shared System Test</title>
+
+  <link rel="stylesheet" href="./design-system/index.css" />
+  <link rel="stylesheet" href="./navigation/navbar.css" />
+  <link rel="stylesheet" href="./hero/hero.css" />
+  <link rel="stylesheet" href="./components/cards.css" />
+  <link rel="stylesheet" href="./trust/trust-strip.css" />
+</head>
+
+<body>
+
+  <header class="cld-navbar" data-cld-navbar>
+    <a href="/claudine/" class="cld-navbar__brand" aria-label="Claudine home">
+      Claudine
+    </a>
+
+    <button
+      class="cld-navbar__toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      data-cld-nav-toggle
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="cld-navbar__menu" aria-label="Main navigation" data-cld-nav-menu>
+      <a href="/claudine/" class="cld-navbar__link">Home</a>
+      <a href="/claudine/demo/" class="cld-navbar__link">Demo</a>
+      <a href="/claudine/frontend/pages/services.html" class="cld-navbar__link">Services</a>
+      <a href="/claudine/frontend/pages/templates.html" class="cld-navbar__link">Templates</a>
+      <a href="/claudine/frontend/pages/contact.html" class="cld-navbar__cta">Start project</a>
+    </nav>
+  </header>
+
+  <main class="cld-hero">
+    <div class="cld-container">
+      
+      <div class="cld-trust-strip">
+  <div class="cld-trust-strip__content">
+
+    <div class="cld-trust-pill">
+      <span class="cld-trust-dot"></span>
+      Modular frontend architecture
+    </div>
+
+    <div class="cld-trust-pill">
+      <span class="cld-trust-dot"></span>
+      Accessibility-first systems
+    </div>
+
+    <div class="cld-trust-pill">
+      <span class="cld-trust-dot"></span>
+      Reusable premium UI infrastructure
+    </div>
+
+  </div>
+</div>
+
+      <div class="cld-hero__content">
+        <p class="cld-eyebrow">
+          Shared system test
+        </p>
+
+        <h1>
+          Claudine reusable frontend engine
+        </h1>
+
+        <p class="cld-lead">
+          This page confirms that the shared design system and navigation
+          component are working before we connect them to real templates.
+        </p>
+
+        <div class="cld-actions">
+          <a href="/claudine/" class="cld-btn cld-btn--primary">
+            Back home
+          </a>
+
+          <a href="/claudine/demo/" class="cld-btn cld-btn--secondary">
+            View demo
+          </a>
+        </div>
+      </div>
+
+      <div class="cld-feature-grid">
+        <article class="cld-card">
+          <h3>Reusable systems</h3>
+
+          <p>
+            Shared navigation, forms, CTA blocks, hero systems,
+            and premium UI infrastructure.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Accessibility-first</h3>
+
+          <p>
+            Calm interfaces, readable spacing, keyboard support,
+            and cognitive clarity.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Scalable templates</h3>
+
+          <p>
+            Industry templates powered by one reusable frontend
+            operating system.
+          </p>
+        </article>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./navigation/navbar.js"></script>
+</body>
+</html>
