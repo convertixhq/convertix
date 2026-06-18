@@ -1,0 +1,50 @@
+.cld-service-grid-section{
+  position:relative;
+  z-index:2;
+
+  padding:6rem 0;
+}
+
+.cld-section-header{
+  max-width:760px;
+  margin-bottom:3rem;
+}
+
+.cld-section-header h2{
+  margin-bottom:1rem;
+}
+
+.cld-service-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1.5rem;
+}
+
+.cld-service-card{
+  min-height:260px;
+}
+
+.cld-service-card__tag{
+  display:inline-flex;
+
+  margin-bottom:1.25rem;
+  padding:0.45rem 0.75rem;
+
+  border:1px solid rgba(255,255,255,0.10);
+  border-radius:999px;
+
+  color:var(--cld-primary-soft);
+
+  font-size:0.78rem;
+  font-weight:700;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+
+  background:rgba(255,255,255,0.04);
+}
+
+@media (max-width:900px){
+  .cld-service-grid{
+    grid-template-columns:1fr;
+  }
+}

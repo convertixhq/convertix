@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Builder Website Demo | Claudine</title>
+
+  <link rel="stylesheet" href="../../templates/_shared/design-system/index.css" />
+  <link rel="stylesheet" href="../../templates/_shared/navigation/navbar.css" />
+  <link rel="stylesheet" href="../../templates/_shared/hero/hero.css" />
+  <link rel="stylesheet" href="../../templates/_shared/components/cards.css" />
+  <link rel="stylesheet" href="../../sections/_trust-bar/trust-bar.css" />
+  <link rel="stylesheet" href="../../sections/_service-grid/service-grid.css" />
+</head>
+
+<body>
+
+  <header class="cld-navbar" data-cld-navbar>
+    <a href="/claudine/" class="cld-navbar__brand" aria-label="Claudine home">
+      Claudine
+    </a>
+
+    <button
+      class="cld-navbar__toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      data-cld-nav-toggle
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="cld-navbar__menu" aria-label="Main navigation" data-cld-nav-menu>
+      <a href="#services" class="cld-navbar__link">Services</a>
+      <a href="#projects" class="cld-navbar__link">Projects</a>
+      <a href="#trust" class="cld-navbar__link">Trust</a>
+      <a href="#quote" class="cld-navbar__cta">Get quote</a>
+    </nav>
+  </header>
+
+  <main class="cld-hero">
+    <div class="cld-container">
+
+      <div class="cld-hero__content">
+        <p class="cld-eyebrow">Builder website demo</p>
+
+        <h1>Premium websites for builders and construction firms</h1>
+
+        <p class="cld-lead">
+          A polished local-service template designed to help building companies
+          present their work clearly, build trust, and turn visitors into enquiries.
+        </p>
+
+        <div class="cld-actions">
+          <a href="#quote" class="cld-btn cld-btn--primary">Request quote</a>
+          <a href="#projects" class="cld-btn cld-btn--secondary">View projects</a>
+        </div>
+      </div>
+
+      <div class="cld-feature-grid" id="services">
+        <article class="cld-card">
+          <h3>Extensions</h3>
+          <p>Showcase home extensions, renovations, and structural upgrades with a premium project-first layout.</p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Renovations</h3>
+          <p>Present before-and-after work, customer trust points, and clear service explanations.</p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Quote enquiries</h3>
+          <p>Guide visitors toward simple quote requests without overwhelming them with clutter.</p>
+        </article>
+      </div>
+
+    </div>
+  </main>
+  <section class="cld-service-trust" id="trust">
+  <div class="cld-container">
+    <div class="cld-service-trust__inner">
+
+      <div class="cld-service-trust__item">
+        <span class="cld-service-trust__number">10+</span>
+        <span class="cld-service-trust__label">Years trade experience</span>
+      </div>
+
+      <div class="cld-service-trust__item">
+        <span class="cld-service-trust__number">48h</span>
+        <span class="cld-service-trust__label">Typical quote response</span>
+      </div>
+
+      <div class="cld-service-trust__item">
+        <span class="cld-service-trust__number">Fully</span>
+        <span class="cld-service-trust__label">Insured and professional</span>
+      </div>
+
+      <div class="cld-service-trust__item">
+        <span class="cld-service-trust__number">Local</span>
+        <span class="cld-service-trust__label">Trusted service provider</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cld-service-grid-section" id="projects">
+  <div class="cld-container">
+
+    <div class="cld-section-header">
+      <p class="cld-eyebrow">What this template supports</p>
+
+      <h2>
+        Built for builders who need trust, clarity and enquiries.
+      </h2>
+
+      <p>
+        The service grid gives local businesses a clean way to explain what they do
+        without overwhelming visitors.
+      </p>
+    </div>
+
+    <div class="cld-service-grid">
+
+      <article class="cld-card cld-service-card">
+        <span class="cld-service-card__tag">Project work</span>
+        <h3>Extensions & conversions</h3>
+        <p>
+          Present home extensions, garage conversions, loft conversions,
+          and structural work with a polished service layout.
+        </p>
+      </article>
+
+      <article class="cld-card cld-service-card">
+        <span class="cld-service-card__tag">Interior upgrades</span>
+        <h3>Renovations</h3>
+        <p>
+          Explain renovation services clearly, from kitchens and bathrooms
+          to full-property refurbishment.
+        </p>
+      </article>
+
+      <article class="cld-card cld-service-card">
+        <span class="cld-service-card__tag">Conversion flow</span>
+        <h3>Quote requests</h3>
+        <p>
+          Guide visitors toward quote requests with calm, structured calls to action.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+  <script src="../../templates/_shared/navigation/navbar.js"></script>
+</body>
+</html>
