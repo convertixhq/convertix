@@ -1,0 +1,36 @@
+.cld-footer{
+  padding:80px 0 40px;
+}
+
+.cld-footer-top{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:40px;
+}
+
+.cld-footer ul{
+  list-style:none;
+  padding:0;
+}
+
+.cld-footer li{
+  margin-bottom:12px;
+}
+
+.cld-footer a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.cld-footer-bottom{
+  margin-top:48px;
+  padding-top:24px;
+  border-top:1px solid rgba(255,255,255,.08);
+  opacity:.7;
+}
+
+@media(max-width:900px){
+  .cld-footer-top{
+    grid-template-columns:1fr;
+  }
+}
