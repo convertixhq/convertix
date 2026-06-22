@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hotel Website Demo | Claudine</title>
+
+  <link rel="stylesheet" href="../../templates/_shared/design-system/index.css" />
+  <link rel="stylesheet" href="../../templates/_shared/navigation/navbar.css" />
+  <link rel="stylesheet" href="../../templates/_shared/hero/hero.css" />
+  <link rel="stylesheet" href="../../templates/_shared/components/cards.css" />
+  <link rel="stylesheet" href="../../sections/_trust-bar/trust-bar.css" />
+  <link rel="stylesheet" href="../../sections/_service-grid/service-grid.css" />
+  <link rel="stylesheet" href="../../sections/_quote-form/quote-form.css" />
+  <link rel="stylesheet" href="../../sections/_gallery/gallery.css" />
+  <link rel="stylesheet" href="../../sections/_testimonials/testimonials.css" />
+  <link rel="stylesheet" href="../../sections/_faq/faq.css" />
+  <link rel="stylesheet" href="../../sections/_footer/footer.css" />
+</head>
+
+<body>
+
+  <header class="cld-navbar" data-cld-navbar>
+    <a href="/claudine/" class="cld-navbar__brand" aria-label="Claudine home">
+      Claudine
+    </a>
+
+    <button
+      class="cld-navbar__toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      data-cld-nav-toggle
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="cld-navbar__menu" aria-label="Main navigation" data-cld-nav-menu>
+      <a href="#services" class="cld-navbar__link">Rooms</a>
+      <a href="#projects" class="cld-navbar__link">Facilities</a>
+      <a href="#trust" class="cld-navbar__link">Trust</a>
+      <a href="#quote" class="cld-navbar__cta">Book Stay</a>
+    </nav>
+  </header>
+
+  <main class="cld-hero">
+    <div class="cld-container">
+
+      <div class="cld-hero__content">
+        <p class="cld-eyebrow">Hotel website demo</p>
+
+        <h1>Premium websites for hotels, resorts and guest accommodation</h1>
+
+        <p class="cld-lead">
+          A polished hospitality template designed to help hotels showcase rooms,
+          facilities and guest experiences while increasing direct bookings.
+        </p>
+
+        <div class="cld-actions">
+          <a href="#quote" class="cld-btn cld-btn--primary">Book stay</a>
+          <a href="#gallery" class="cld-btn cld-btn--secondary">View hotel</a>
+        </div>
+      </div>
+
+      <div class="cld-feature-grid" id="services">
+
+        <article class="cld-card">
+          <h3>Luxury rooms</h3>
+          <p>
+            Showcase room types, suites and accommodation options beautifully.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Guest facilities</h3>
+          <p>
+            Present restaurants, spas, lounges and premium guest amenities.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Direct bookings</h3>
+          <p>
+            Guide visitors toward enquiries and direct reservation requests.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <section class="cld-service-trust" id="trust">
+    <div class="cld-container">
+      <div class="cld-service-trust__inner">
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">24/7</span>
+          <span class="cld-service-trust__label">Guest support</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Luxury</span>
+          <span class="cld-service-trust__label">Premium guest experience</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Direct</span>
+          <span class="cld-service-trust__label">Booking enquiries</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Trusted</span>
+          <span class="cld-service-trust__label">Hospitality provider</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cld-service-grid-section" id="projects">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">What this template supports</p>
+
+        <h2>
+          Built for hotels that need trust, bookings and guest confidence.
+        </h2>
+
+        <p>
+          The service grid helps hotels explain accommodation options,
+          facilities and guest experiences clearly.
+        </p>
+      </div>
+
+      <div class="cld-service-grid">
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Accommodation</span>
+          <h3>Rooms & suites</h3>
+          <p>
+            Present room categories, luxury suites,
+            family accommodation and premium stays.
+          </p>
+        </article>
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Facilities</span>
+          <h3>Guest amenities</h3>
+          <p>
+            Showcase restaurants, bars, gyms,
+            spas, meeting rooms and event facilities.
+          </p>
+        </article>
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Reservations</span>
+          <h3>Booking enquiries</h3>
+          <p>
+            Guide visitors toward room availability checks
+            and direct reservation requests.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-gallery-section" id="gallery">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Hotel showcase</p>
+
+        <h2>
+          Show your property with a premium hospitality gallery.
+        </h2>
+
+        <p>
+          This gallery section gives hotels a clean place to present rooms,
+          facilities and guest experiences.
+        </p>
+      </div>
+
+      <div class="cld-gallery-grid">
+
+        <article class="cld-card cld-gallery-card cld-gallery-card--large">
+          <div class="cld-gallery-placeholder">
+            <span>Luxury hotel suite</span>
+          </div>
+        </article>
+
+        <div class="cld-gallery-stack">
+
+          <article class="cld-card cld-gallery-card">
+            <div class="cld-gallery-placeholder">
+              <span>Hotel restaurant</span>
+            </div>
+          </article>
+
+          <article class="cld-card cld-gallery-card">
+            <div class="cld-gallery-placeholder">
+              <span>Guest lounge</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-quote-section" id="quote">
+    <div class="cld-container">
+
+      <div class="cld-quote-panel">
+
+        <div class="cld-quote-copy">
+          <p class="cld-eyebrow">Book your stay</p>
+
+          <h2>
+            Turn visitors into direct booking enquiries.
+          </h2>
+
+          <p>
+            This reusable booking form gives hotels a professional way
+            to capture reservation requests and guest enquiries.
+          </p>
+        </div>
+
+        <form class="cld-quote-form">
+
+          <div class="cld-form-row">
+            <div class="cld-field">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+            </div>
+
+            <div class="cld-field">
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="Your phone number" />
+            </div>
+          </div>
+
+          <div class="cld-form-row">
+            <div class="cld-field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="cld-field">
+              <label for="service">Room type</label>
+              <select id="service">
+                <option>Standard Room</option>
+                <option>Deluxe Room</option>
+                <option>Executive Suite</option>
+                <option>Family Room</option>
+                <option>Group Booking</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="cld-field">
+            <label for="message">Booking details</label>
+            <textarea id="message" placeholder="Tell us about your stay requirements..."></textarea>
+          </div>
+
+          <button class="cld-btn cld-btn--primary" type="submit">
+            Send booking enquiry
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-testimonials" id="testimonials">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Guest feedback</p>
+        <h2>Trusted by guests and travellers.</h2>
+      </div>
+
+      <div class="cld-testimonial-grid">
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            Beautiful rooms, excellent service and a fantastic guest experience.
+          </p>
+          <div class="cld-client">Sarah M</div>
+        </article>
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            Easy booking process and a very welcoming team throughout our stay.
+          </p>
+          <div class="cld-client">James T</div>
+        </article>
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            The facilities were outstanding and exceeded our expectations.
+          </p>
+          <div class="cld-client">David R</div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-faq-section" id="faq">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Frequently asked questions</p>
+
+        <h2>Common questions before booking a hotel stay.</h2>
+
+      </div>
+
+      <div class="cld-faq-grid">
+
+        <article class="cld-faq-item">
+          <h3>Can this template show room types?</h3>
+          <p>
+            Yes. Standard rooms, suites and accommodation options can all be presented clearly.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Can guests send booking enquiries?</h3>
+          <p>
+            Yes. The enquiry form can be used for reservations and availability requests.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Is this suitable for resorts and guest houses?</h3>
+          <p>
+            Yes. The layout works for hotels, resorts, lodges and boutique accommodation.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Can online booking systems be added later?</h3>
+          <p>
+            Yes. Full booking engines and payment systems can be integrated later.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="cld-footer">
+    <div class="cld-container">
+
+      <div class="cld-footer-top">
+
+        <div>
+          <h3>Claudine</h3>
+          <p>
+            Premium website systems for hotels,
+            resorts and hospitality businesses.
+          </p>
+        </div>
+
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#services">Rooms</a></li>
+            <li><a href="#gallery">Hotel</a></li>
+            <li><a href="#quote">Bookings</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@example.com</li>
+            <li>01234 567890</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="cld-footer-bottom">
+        © Claudine. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="../../templates/_shared/navigation/navbar.js"></script>
+
+</body>
+</html>

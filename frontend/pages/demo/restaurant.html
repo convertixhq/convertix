@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Restaurant Website Demo | Claudine</title>
+
+  <link rel="stylesheet" href="../../templates/_shared/design-system/index.css" />
+  <link rel="stylesheet" href="../../templates/_shared/navigation/navbar.css" />
+  <link rel="stylesheet" href="../../templates/_shared/hero/hero.css" />
+  <link rel="stylesheet" href="../../templates/_shared/components/cards.css" />
+  <link rel="stylesheet" href="../../sections/_trust-bar/trust-bar.css" />
+  <link rel="stylesheet" href="../../sections/_service-grid/service-grid.css" />
+  <link rel="stylesheet" href="../../sections/_quote-form/quote-form.css" />
+  <link rel="stylesheet" href="../../sections/_gallery/gallery.css" />
+  <link rel="stylesheet" href="../../sections/_testimonials/testimonials.css" />
+  <link rel="stylesheet" href="../../sections/_faq/faq.css" />
+  <link rel="stylesheet" href="../../sections/_footer/footer.css" />
+</head>
+
+<body>
+
+  <header class="cld-navbar" data-cld-navbar>
+    <a href="/claudine/" class="cld-navbar__brand" aria-label="Claudine home">
+      Claudine
+    </a>
+
+    <button
+      class="cld-navbar__toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      data-cld-nav-toggle
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="cld-navbar__menu" aria-label="Main navigation" data-cld-nav-menu>
+      <a href="#services" class="cld-navbar__link">Menu</a>
+      <a href="#projects" class="cld-navbar__link">Dining</a>
+      <a href="#trust" class="cld-navbar__link">Trust</a>
+      <a href="#quote" class="cld-navbar__cta">Reserve Table</a>
+    </nav>
+  </header>
+
+  <main class="cld-hero">
+    <div class="cld-container">
+
+      <div class="cld-hero__content">
+        <p class="cld-eyebrow">Restaurant website demo</p>
+
+        <h1>Premium websites for restaurants and dining venues</h1>
+
+        <p class="cld-lead">
+          A polished hospitality template designed to help restaurants
+          showcase menus, atmosphere and dining experiences while increasing reservations.
+        </p>
+
+        <div class="cld-actions">
+          <a href="#quote" class="cld-btn cld-btn--primary">Reserve a table</a>
+          <a href="#gallery" class="cld-btn cld-btn--secondary">View restaurant</a>
+        </div>
+      </div>
+
+      <div class="cld-feature-grid" id="services">
+
+        <article class="cld-card">
+          <h3>Signature menu</h3>
+          <p>
+            Showcase starters, mains, desserts and chef specialities beautifully.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Dining experience</h3>
+          <p>
+            Present atmosphere, service quality and guest experiences.
+          </p>
+        </article>
+
+        <article class="cld-card">
+          <h3>Reservations</h3>
+          <p>
+            Guide visitors toward table bookings and event enquiries.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <section class="cld-service-trust" id="trust">
+    <div class="cld-container">
+      <div class="cld-service-trust__inner">
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Fresh</span>
+          <span class="cld-service-trust__label">Quality ingredients</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">5★</span>
+          <span class="cld-service-trust__label">Dining experience</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Private</span>
+          <span class="cld-service-trust__label">Event bookings available</span>
+        </div>
+
+        <div class="cld-service-trust__item">
+          <span class="cld-service-trust__number">Local</span>
+          <span class="cld-service-trust__label">Trusted restaurant</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cld-service-grid-section" id="projects">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">What this template supports</p>
+
+        <h2>
+          Built for restaurants that need visibility, trust and reservations.
+        </h2>
+
+        <p>
+          The service grid helps restaurants present menus,
+          events and dining experiences clearly.
+        </p>
+      </div>
+
+      <div class="cld-service-grid">
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Menu</span>
+          <h3>Food & beverages</h3>
+          <p>
+            Present signature dishes, seasonal menus,
+            wine selections and chef recommendations.
+          </p>
+        </article>
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Events</span>
+          <h3>Private dining</h3>
+          <p>
+            Showcase celebrations, business dinners,
+            parties and special dining events.
+          </p>
+        </article>
+
+        <article class="cld-card cld-service-card">
+          <span class="cld-service-card__tag">Bookings</span>
+          <h3>Table reservations</h3>
+          <p>
+            Guide visitors toward booking enquiries
+            and reservation requests.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-gallery-section" id="gallery">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Restaurant showcase</p>
+
+        <h2>
+          Show your restaurant with a premium visual gallery.
+        </h2>
+
+        <p>
+          This gallery section gives restaurants a clean place to present dishes,
+          dining spaces and guest experiences.
+        </p>
+      </div>
+
+      <div class="cld-gallery-grid">
+
+        <article class="cld-card cld-gallery-card cld-gallery-card--large">
+          <div class="cld-gallery-placeholder">
+            <span>Signature dining experience</span>
+          </div>
+        </article>
+
+        <div class="cld-gallery-stack">
+
+          <article class="cld-card cld-gallery-card">
+            <div class="cld-gallery-placeholder">
+              <span>Chef speciality dish</span>
+            </div>
+          </article>
+
+          <article class="cld-card cld-gallery-card">
+            <div class="cld-gallery-placeholder">
+              <span>Restaurant interior</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-quote-section" id="quote">
+    <div class="cld-container">
+
+      <div class="cld-quote-panel">
+
+        <div class="cld-quote-copy">
+          <p class="cld-eyebrow">Reserve your table</p>
+
+          <h2>
+            Turn visitors into restaurant reservations.
+          </h2>
+
+          <p>
+            This reusable booking form gives restaurants a professional way
+            to capture reservations and dining enquiries.
+          </p>
+        </div>
+
+        <form class="cld-quote-form">
+
+          <div class="cld-form-row">
+            <div class="cld-field">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+            </div>
+
+            <div class="cld-field">
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="Your phone number" />
+            </div>
+          </div>
+
+          <div class="cld-form-row">
+            <div class="cld-field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div class="cld-field">
+              <label for="service">Reservation type</label>
+              <select id="service">
+                <option>Table for 2</option>
+                <option>Family dining</option>
+                <option>Birthday celebration</option>
+                <option>Private dining</option>
+                <option>Corporate event</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="cld-field">
+            <label for="message">Reservation details</label>
+            <textarea id="message" placeholder="Tell us about your reservation requirements..."></textarea>
+          </div>
+
+          <button class="cld-btn cld-btn--primary" type="submit">
+            Send reservation enquiry
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-testimonials" id="testimonials">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Guest feedback</p>
+        <h2>Loved by diners and returning guests.</h2>
+      </div>
+
+      <div class="cld-testimonial-grid">
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            Amazing food, excellent service and a fantastic atmosphere.
+          </p>
+          <div class="cld-client">Sarah M</div>
+        </article>
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            One of the best dining experiences we've had in a long time.
+          </p>
+          <div class="cld-client">James T</div>
+        </article>
+
+        <article class="cld-testimonial-card">
+          <div class="cld-stars">★★★★★</div>
+          <p>
+            Great food, welcoming staff and beautifully presented dishes.
+          </p>
+          <div class="cld-client">David R</div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cld-faq-section" id="faq">
+    <div class="cld-container">
+
+      <div class="cld-section-header">
+        <p class="cld-eyebrow">Frequently asked questions</p>
+
+        <h2>Common questions before making a reservation.</h2>
+
+      </div>
+
+      <div class="cld-faq-grid">
+
+        <article class="cld-faq-item">
+          <h3>Can this template show menus?</h3>
+          <p>
+            Yes. Menus, wine lists and seasonal specials can all be presented clearly.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Can guests send reservation enquiries?</h3>
+          <p>
+            Yes. The enquiry form is designed around table bookings and events.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Is this suitable for fine dining restaurants?</h3>
+          <p>
+            Yes. The layout works for fine dining, casual dining and boutique restaurants.
+          </p>
+        </article>
+
+        <article class="cld-faq-item">
+          <h3>Can online booking systems be added later?</h3>
+          <p>
+            Yes. Full reservation and payment systems can be integrated later.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="cld-footer">
+    <div class="cld-container">
+
+      <div class="cld-footer-top">
+
+        <div>
+          <h3>Claudine</h3>
+          <p>
+            Premium website systems for restaurants,
+            hospitality venues and dining businesses.
+          </p>
+        </div>
+
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#services">Menu</a></li>
+            <li><a href="#gallery">Restaurant</a></li>
+            <li><a href="#quote">Reservations</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@example.com</li>
+            <li>01234 567890</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="cld-footer-bottom">
+        © Claudine. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="../../templates/_shared/navigation/navbar.js"></script>
+
+</body>
+</html>
