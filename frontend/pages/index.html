@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Claudine Template Library</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      background:#050816;
+      color:white;
+      min-height:100vh;
+      padding:60px 30px;
+    }
+
+    .container{
+      max-width:1400px;
+      margin:auto;
+    }
+
+    h1{
+      font-size:4rem;
+      margin-bottom:20px;
+    }
+
+    .lead{
+      color:#cfd7e6;
+      margin-bottom:60px;
+      max-width:800px;
+      line-height:1.7;
+    }
+
+    .category{
+      margin-bottom:70px;
+    }
+
+    .category h2{
+      margin-bottom:25px;
+      color:#79f5ff;
+      font-size:2rem;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.1);
+      border-radius:20px;
+      padding:25px;
+      transition:.25s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:#79f5ff;
+    }
+
+    .card a{
+      color:white;
+      text-decoration:none;
+      font-size:1.1rem;
+      font-weight:700;
+    }
+
+    .card p{
+      margin-top:10px;
+      color:#b8c3d8;
+      font-size:.9rem;
+    }
+  </style>
+
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Claudine Template Library</h1>
+
+  <p class="lead">
+    Browse all Claudine demo templates by industry.
+    Each template is built on the same reusable Claudine design system.
+  </p>
+
+  <!-- TRADES -->
+
+  <section class="category">
+
+    <h2>Trades & Home Services</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <a href="demo/builder.html">Builder</a>
+        <p>Construction & building services.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/plumber.html">Plumber</a>
+        <p>Plumbing & emergency repairs.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/electrician.html">Electrician</a>
+        <p>Electrical installations & repairs.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/roofer.html">Roofer</a>
+        <p>Roof repairs & installations.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/hvac.html">HVAC</a>
+        <p>Heating & cooling systems.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/gas.html">Gas Engineer</a>
+        <p>Boilers & gas services.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/locksmith.html">Locksmith</a>
+        <p>Locks, keys and security.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/security.html">Security</a>
+        <p>Security systems & monitoring.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/solar.html">Solar</a>
+        <p>Solar panel installation.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/painter.html">Painter</a>
+        <p>Interior & exterior painting.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/flooring.html">Flooring</a>
+        <p>Floor installation specialists.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/tree-surgeon.html">Tree Surgeon</a>
+        <p>Tree maintenance & removal.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/gardener.html">Gardener</a>
+        <p>Garden care & maintenance.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/landscaper.html">Landscaper</a>
+        <p>Outdoor transformations.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/window-cleaning.html">Window Cleaning</a>
+        <p>Commercial & residential.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/carpet-cleaning.html">Carpet Cleaning</a>
+        <p>Deep cleaning services.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/pressure-washing.html">Pressure Washing</a>
+        <p>Exterior cleaning.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/pest-control.html">Pest Control</a>
+        <p>Pest prevention & removal.</p>
+      </div>
+
+      <div class="card">
+        <a href="demo/removals.html">Removals</a>
+        <p>Home & office moves.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- HEALTHCARE -->
+
+  <section class="category">
+
+    <h2>Healthcare & Wellness</h2>
+
+    <div class="grid">
+
+      <div class="card"><a href="demo/clinic.html">Clinic</a></div>
+      <div class="card"><a href="demo/dentist.html">Dentist</a></div>
+      <div class="card"><a href="demo/chiropractor.html">Chiropractor</a></div>
+      <div class="card"><a href="demo/physiotherapist.html">Physiotherapist</a></div>
+      <div class="card"><a href="demo/therapist.html">Therapist</a></div>
+      <div class="card"><a href="demo/counsellor.html">Counsellor</a></div>
+      <div class="card"><a href="demo/nutritionist.html">Nutritionist</a></div>
+      <div class="card"><a href="demo/vet.html">Veterinary</a></div>
+
+    </div>
+
+  </section>
+
+  <!-- PROFESSIONAL -->
+
+  <section class="category">
+
+    <h2>Professional Services</h2>
+
+    <div class="grid">
+
+      <div class="card"><a href="demo/accountant.html">Accountant</a></div>
+      <div class="card"><a href="demo/consultant.html">Consultant</a></div>
+      <div class="card"><a href="demo/lawyer.html">Lawyer</a></div>
+      <div class="card"><a href="demo/law-firm.html">Law Firm</a></div>
+      <div class="card"><a href="demo/recruitment.html">Recruitment</a></div>
+
+    </div>
+
+  </section>
+
+  <!-- HOSPITALITY -->
+
+  <section class="category">
+
+    <h2>Hospitality</h2>
+
+    <div class="grid">
+
+      <div class="card"><a href="demo/cafe.html">Cafe</a></div>
+      <div class="card"><a href="demo/restaurant.html">Restaurant</a></div>
+      <div class="card"><a href="demo/hotel.html">Hotel</a></div>
+
+    </div>
+
+  </section>
+
+  <!-- BEAUTY -->
+
+  <section class="category">
+
+    <h2>Beauty & Lifestyle</h2>
+
+    <div class="grid">
+
+      <div class="card"><a href="demo/salon.html">Salon</a></div>
+      <div class="card"><a href="demo/spa.html">Spa</a></div>
+
+    </div>
+
+  </section>
+
+</div>
+
+</body>
+</html>
